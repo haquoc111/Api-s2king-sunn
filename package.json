@@ -1,30 +1,17 @@
 {
   "name": "sunwin-predictor-api",
   "version": "1.0.0",
-  "description": "Sunwin Tài Xỉu predictor with WebSocket and Express API",
-  "main": "apisun (1).js",
+  "main": "server.js",
   "scripts": {
-    "start": "node \"apisun (1).js\"",
-    "dev": "nodemon \"apisun (1).js\""
+    "start": "node server.js"
   },
-  "keywords": [
-    "sunwin",
-    "taixiu",
-    "prediction",
-    "websocket",
-    "express"
-  ],
-  "author": "",
-  "license": "MIT",
   "dependencies": {
-    "ws": "^8.16.0",
     "express": "^4.18.2",
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "ws": "^8.16.0",
+    "axios": "^1.6.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
-  },
-  "engines": {
-    "node": ">=14.0.0"
   }
 }
